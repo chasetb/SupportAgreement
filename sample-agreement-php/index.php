@@ -81,7 +81,7 @@ if ($usePHPMailer) {
 	$mail = new PHPMailer;
 	// $mail->SMTPDebug = 1;		// Uncomment for debugging
 	$mail->isSMTP();			// Set mailer to use SMTP
-	$mail->SMTPAuth   = true		// enable SMTP authentication
+	$mail->SMTPAuth   = true;		// enable SMTP authentication
 	$mail->Port       = 587;		// set the SMTP port 25, 465, or 587
 	$mail->Host = 'smtp.myserver.com';	// Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;			// Enable SMTP authentication
@@ -285,7 +285,7 @@ $baseurl = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://').$_SERVER['SERVER_
 				<p>Your Support Agreement has been submitted. <p>
 				<strong>As a subscriber to our support package, you receive:</strong>
 				<ul>
-				<li>Brief emails and calls, under 15 minutes per incident, are covered by your agreement.</li>
+				<li>Brief emails and calls handled in 10 minutes or less, are covered by your agreement.</li>
 					<li>The rate for labor will be discounted from &#36;150 to &#36;120 an hour</li>
 					<li>Hardware and software sales will enjoy a 5.5% discount</li>
 				</ul>
@@ -506,7 +506,7 @@ else {
 
 				<h3 id=""><strong>Members of our Personal Support agreement receive:</strong></h3>
 				<ul>
-					<li>Brief emails and calls, under 15 minutes per incident, are covered by your agreement.</li>
+					<li>Brief emails and calls handled in 10 minutes or less, are covered by your agreement.</li>
 					<li>The rate for labor will be discounted from &#36;150 to &#36;120 an hour</li>
 					<li>Hardware and software sales will enjoy a 5.5% discount</li>
 				</ul>
